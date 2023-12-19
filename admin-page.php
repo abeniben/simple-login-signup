@@ -16,6 +16,7 @@
             <h3> Hi,   <span>Admin</span></h3>
             <h1> Welcome   <span></span></h1>
             <p>This is your admin page</p>
+            <a href="login.php" class='btn'>Log in</a>
         </div>
     </div>
     

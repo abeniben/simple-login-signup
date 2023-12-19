@@ -16,8 +16,12 @@
             <h3> Hi,   <span>Student</span></h3>
             <h1> Welcome   <span></span></h1>
             <p>This is your Student page</p>
+            <a href="login.php" class='btn'>Log in</a>
         </div>
     </div>
+    <?php
+        
+    ?>
     
 </body>
 </html>

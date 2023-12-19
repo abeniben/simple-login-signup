@@ -57,3 +57,79 @@
 .container .nav-bar .btn:hover{
     background: slategray;
 }
+
+.container .content .btn{
+    display: inline-block;
+    padding:1rem 1.5rem ;
+    font-size:1.5;
+    background:slateblue ;
+    color:white ;
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+.container .content .btn:hover{
+    background: rgb(61, 202, 84);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container form{
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 7px rgba(0, 0, 0,.1);
+    background: white;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container form h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+
+}
+.form-container form input{
+    width: 100%;
+    padding: .7rem .8rem;
+    margin: .7rem 0;
+    font-size: 1rem;
+    border-bottom: 1px solid #7e7e7e;
+    background:#dddada ;
+    border-radius: .4rem;
+}
+.form-container form .register-btn{ 
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    border: none;
+    background:#aea8f0 ;
+    cursor: pointer;
+}
+.form-container form .register-btn:hover{ 
+    background:#8f87e4;
+}
+.form-container form select{
+    width: 100%;
+    padding: .7rem .8rem;
+    margin: 1rem 0;
+    font-size: 1rem;
+    background:#2e2f33 ;
+    border-radius: .4rem;
+    color: white;
+}
+.form-container form p{
+    margin-top: 1rem;
+}
+.form-container form p a{
+    color: #8267ff;
+}
